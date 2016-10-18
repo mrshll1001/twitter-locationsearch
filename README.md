@@ -3,7 +3,7 @@ Personal script for a friend.
 
 
 ## Prerequisites
-The script requires you set up an app with apps.twitter.com, and retrieve your api token and secret. It also required that you generate your user's api token and secret. These should be pasted into the string variables in ```main.py```
+The script requires you set up an app with apps.twitter.com, and retrieve your api token and secret. It also requires that you generate your user's api token and secret. These should be pasted into the string variables in ```main.py```
 
 It also requires that your system has tweepy installed:
 
@@ -31,4 +31,4 @@ Run from the terminal with
 python main.py
 ```
 
-Follow the prompts on-screen. When the script finishes it will have written the results to a csv file in the same folder. Be aware that Twitter limites api usage in 15 min blocks. Once you hit that limit, you'll need to wait 15 mins before running the script again.
+Follow the prompts on-screen. When the script finishes it will have written the results to a csv file in the same folder. Be aware that Twitter limits api usage in 15 min blocks. Once you hit that limit, you'll need to wait 15 mins before running the script again.
