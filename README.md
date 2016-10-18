@@ -9,19 +9,21 @@ It also requires that your system has tweepy installed:
 
 ### Installing tweepy on a mac
 
-First we install easy_install. Open Terminal and type:
-```
-curl https://bootstrap.pypa.io/ez_setup.py -o - | sudo python
-```
-Next we use easy_install to install pip, the Python package manager
+1. First, we need to install a python package manager called pip with easy_install. Macs sometimes come with easy_install on them already. First try:
+  ```
+  sudo easy_install pip
+  ```
+  If that worked, go to 3. If not, go to 2.
 
-```
-sudo easy_install pip
-```
-Now, we use pip to install tweepy
-```
-sudo pip install tweepy
-```
+2. Install easy_install
+  ```
+  curl https://bootstrap.pypa.io/ez_setup.py -o - | sudo python
+  ```
+
+3. Now, we use pip to install tweepy
+  ```
+  sudo pip install tweepy
+  ```
 
 Tweepy should be set up for you to use
 
