@@ -19,6 +19,7 @@ It also requires that your system has tweepy installed:
   ```
   curl https://bootstrap.pypa.io/ez_setup.py -o - | sudo python
   ```
+  And go back to 1.
 
 3. Now, we use pip to install tweepy
   ```
