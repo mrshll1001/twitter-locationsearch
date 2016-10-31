@@ -5,11 +5,11 @@ import csv
 import datetime
 
 # Set up authentication
-key = ""
-secret = ""
+key = "fJG3F2SdcV9AyA07VgXELfYHp"
+secret = "fp9VyzsrZBgdhaBeELitLb4m9RP23pezwn6PNC4PhxDw4fgBox"
 
-user_token = ""
-user_secret = ""
+user_token = "240373788-SzMNoJDFNRZxbZ7vwXtA4p75OjmQ4hRc4UstVEds"
+user_secret = "nMb5TX0kYac8mKJH6RWHOITaf386u6QUSxqVo51UHHgR8"
 
 auth = tweepy.OAuthHandler(key, secret)
 auth.set_access_token(user_token, user_secret)
